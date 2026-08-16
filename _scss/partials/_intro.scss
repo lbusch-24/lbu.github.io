@@ -6,12 +6,15 @@
 
 .intro-main .intro__tagline {
   flex: 1;
+  flex-shrink: 1; /* Allow it to shrink if needed */
 }
 
 .intro-main .research-image {
   width: 150px;
+  min-width: 150px; /* Prevent image from shrinking */
   max-width: 150px;
   height: auto;
+  flex-shrink: 0; /* Prevent image from shrinking */
 }
 
 .intro {
