@@ -2,21 +2,27 @@
   display: flex;
   align-items: center;
   gap: 30px;
+  
+  @include phablet {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .intro-main .intro__tagline {
   flex: 1;
-  flex-shrink: 1; /* Allow it to shrink if needed */
 }
 
 .intro-main .research-image {
   width: 150px;
-  min-width: 150px; /* Prevent image from shrinking */
   max-width: 150px;
   height: auto;
-  flex-shrink: 0; /* Prevent image from shrinking */
+  
+  @include phablet {
+    width: 120px;
+    max-width: 120px;
+  }
 }
-
 .intro {
   padding: 120px 100px;
   height: 100vh;
