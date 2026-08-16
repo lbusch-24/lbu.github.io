@@ -1,7 +1,7 @@
 .intro-main {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 30px;
 }
 
 .intro-main .intro__tagline {
@@ -9,7 +9,6 @@
 }
 
 .intro-main .research-image {
-  flex: 0 0 150px;
   width: 150px;
   max-width: 150px;
   height: auto;
