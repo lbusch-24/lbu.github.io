@@ -55,16 +55,16 @@
 }
 
 .intro-main .research-image {
-  width: 150px;
-  min-width: 150px;
-  max-width: 150px;
+  width: 100px;
+  min-width: 100px;
+  max-width: 100px;
   height: auto;
   flex-shrink: 0;
   
   @include phablet {
-    width: 120px;
-    min-width: 120px;
-    max-width: 120px;
+    width: 80px;
+    min-width: 80px;
+    max-width: 80px;
   }
 }
 
