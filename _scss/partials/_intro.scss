@@ -1,3 +1,73 @@
+.intro-main {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  
+  @include phablet {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.intro-main .intro__tagline {
+  flex: 0 1 auto;
+  max-width: 700px;
+  font-weight: 300;
+  font-size: 2.5rem;
+  @include desktop {
+    font-size: 2.25rem;
+  }
+  @include tablet {
+    font-size: 2rem;
+  }
+  @include phablet {
+    font-size: 1.75rem;
+  }
+  @include small-mobile {
+    font-size: 1.5rem;
+  }
+  @include tiny-mobile {
+    font-size: 1.4rem;
+  }
+  .name {
+    font-weight: 700;
+  }
+  .technologist {
+    background-image: url('../img/emojis/technologist.png');
+  }
+  .emoji {
+    width: 40px;
+    height: 40px;
+    @include desktop {
+      width: 35px;
+      height: 35px;
+    }
+    @include tablet {
+      width: 30px;
+      height: 30px;
+    }
+    @include small-mobile {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+
+.intro-main .research-image {
+  width: 100px;
+  min-width: 100px;
+  max-width: 100px;
+  height: auto;
+  flex-shrink: 0;
+  
+  @include phablet {
+    width: 80px;
+    min-width: 80px;
+    max-width: 80px;
+  }
+}
+
 .intro {
   padding: 120px 100px;
   height: 100vh;
@@ -16,34 +86,6 @@
     padding: 70px 50px;
   }
 
-  &-main {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-
-    .intro__tagline {
-      flex: 1;
-    }
-
-    .research-figure {
-      margin: 0;
-      flex: 0 0 180px;
-      width: 180px;
-
-      img {
-        display: block;
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-      }
-    }
-  }
-   &-main {
-    background: yellow;
-  }
-
-
-  
   &__hello, &__tagline {
     font-size: 2.5rem;
     @include desktop {
