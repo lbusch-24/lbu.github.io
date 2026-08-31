@@ -1,18 +1,27 @@
-<section class="section other-projects">
-  <div class="section__title">Other Projects</div>
-  <div class="section__content">
-    {% for project in site.data.other-projects %}
-    <div class="project">
-      <div class="project__name">
-        <a href="{{project.url}}" target="_blank" class="arrow-link">{{project.name}}</a>
-      </div>
-      <p>{{project.description}}</p>
-      <div class="project__used">
-        {% for item in project.used %}
-        <span class="project__used__item">{{item.thing}}</span>
-        {% endfor %}
-      </div>
-    </div>
-    {% endfor %}
+<section class="section others">
+  <div class="section__title">Out of office</div>
+
+  <div class="project">
+    <figure class="project__pic pic-freetime">
+      <a>
+        <img src="{{site.baseurl}}/img/dance2.jpg" alt="">
+        <img src="{{site.baseurl}}/img/Dance.jpg" alt="">
+      </a>
+    </figure> 
+
+    <figcaption class="project__caption cap-freetime">
+      <p>If I'm not working , I'm probably dancing in a commercial, heels, or hip hop class just for fun or as preparation for show. (Right figure: &copy; S. Wagner)</p>
+    </figcaption>
+
+    <figure class="project__pic pic-freetime2">
+      <a>
+        <img src="{{site.baseurl}}/img/Dive.jpg" alt="">
+        <img src="{{site.baseurl}}/img/shark.jpg" alt="">
+      </a>
+    </figure> 
+
+    <figcaption class="project__caption cap-freetime">
+      <p>And if take a break from exploring the unknowns up in space, I love to explore the our world, especially, the mysteries of the underwater world deep down (max. 30m)</p>
+    </figcaption>
   </div>
 </section>
