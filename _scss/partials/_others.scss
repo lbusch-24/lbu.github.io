@@ -49,9 +49,11 @@
 
           @media (max-width: 600px) {
             flex-direction: column ;
-            width: 85%;
           }
         }
+        @media (max-width: 600px) {
+            width: 85%;
+          }
       }
 
       &.pic-remoca2 {
