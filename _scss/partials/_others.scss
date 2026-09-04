@@ -96,31 +96,23 @@
     }
     .project__pic.pic-freetime {
       width: 100%;
-      max-width: 600px;
+      max-width: 580px;
       margin: 0;
 
       a {
         display: flex;
-        margin-left: 100px;
+        margin-left: 120px;
         gap: 20px;
       }
 
-      figure {
+      img {
         width: calc(50% - 10px);
         max-width: calc(50% - 10px);
-        margin: 0;
-      }
-
-      figure img {
-        display: block;
-        width: 100%;
-        max-width: 100%;
         height: auto;
       }
 
       @media (max-width: 600px) {
         width: 100%;
-        max-width: 200px;
         margin-left: 0;
 
         a {
