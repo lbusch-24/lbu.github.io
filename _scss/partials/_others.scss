@@ -69,18 +69,14 @@
         a {
           display: flex;
           gap: 30px;
-        }
-          @media (max-width: 1024px) {
-            a {
-              flex-direction: column;
-            }
-          }
+         } 
 
-          @media (max-width: 768px) {
-            width: 90%;
-            margin-left: -3%;
+        @media (max-width: 1024px) {
+          a {
+            flex-direction: column;
           }
         }
+      }
 
       &.phones {
         a {
