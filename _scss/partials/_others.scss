@@ -47,10 +47,9 @@
           display: flex;
           gap: 20px;
 
-          @include tablet {
-            flex-direction: column;
+          @media (max-width: 600px) {
+            display: block;
           }
-        }
       }
 
       &.pic-remoca2 {
