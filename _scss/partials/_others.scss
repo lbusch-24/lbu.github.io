@@ -52,7 +52,8 @@
           }
         }
         @media (max-width: 600px) {
-            width: 85%;
+            width: 90%;
+            margin-left: -3%;
           }
       }
 
@@ -105,8 +106,11 @@
         @media (max-width: 600px) {
           margin-left: -140px;
         }
-        }
+      }
       
+      @media (max-width: 600px) {
+        width: 70%;
+      }
 
       img {
         width: 100%;
