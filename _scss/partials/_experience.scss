@@ -5,10 +5,10 @@
   .job {
     margin-bottom: 25px;
     .time-place {
-      display: block;
+      display: flex;
       justify-content: space-between;
       @include mobile {
-        display: block;
+        display: flex;
       }
     }
     &__company {
