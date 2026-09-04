@@ -46,15 +46,21 @@
         a {
           display: flex;
           gap: 20px;
-
-          @include tablet {
-            flex-direction: column;
-          }
         }
 
-        @media (max-width: 600px) {
+        @media (max-width: 768px) {
           width: 90%;
           margin-left: -3%;
+
+          a {
+            flex-direction: column;
+            gap: 20px;
+          }
+
+          img {
+            width: 100%;
+            max-width: 100%;
+          }
         }
       }
 
@@ -119,12 +125,6 @@
         a {
           margin-left: 0;
         }
-      }
-    }
-    @media (max-width: 1024px) {
-      .project__pic.pic-remoca1 a,
-      .project__pic.pic-remoca2 a {
-        flex-direction: column;
       }
     }
     .project__pic.pic-freetime2 {
