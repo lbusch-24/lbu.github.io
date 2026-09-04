@@ -19,6 +19,7 @@
       font-family: 'Inconsolata', monospace;
       @include mobile {
         font-size: 0.8rem;
+        text-align: left;
       }
     }
   }
