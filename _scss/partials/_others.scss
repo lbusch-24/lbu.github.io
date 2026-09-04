@@ -22,7 +22,6 @@
       display: block;
       margin-bottom: 70px;
       margin-left: -30px;
-      margin-right: 3%;
     }
     &.screentime {
       margin-bottom: 70px;
@@ -57,7 +56,7 @@
 
           img {
             width: 100% !important;
-            max-width: 70% !important;
+            max-width: 50% !important;
           }
         }
 
@@ -126,6 +125,9 @@
         width: 100%;
         margin-left: 0;
 
+        a {
+          margin-left: -20px;
+        }
       }
     }
     .project__pic.pic-freetime2 {
