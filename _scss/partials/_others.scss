@@ -45,7 +45,14 @@
 
         a {
           display: flex;
+          flex-direction: row;
           gap: 20px;
+        }
+
+        img {
+          width: calc(50% - 10px);
+          max-width: calc(50% - 10px);
+          height: auto;
         }
 
         @media (max-width: 768px) {
@@ -53,13 +60,13 @@
           margin-left: -3%;
 
           a {
-            flex-direction: column;
+            flex-direction: column !important;
             gap: 20px;
           }
 
           img {
-            width: 100%;
-            max-width: 100%;
+            width: 100% !important;
+            max-width: 100% !important;
           }
         }
       }
