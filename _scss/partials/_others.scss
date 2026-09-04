@@ -65,6 +65,10 @@
           width: 50%;
           margin-left: 0;
         }
+
+        @media (max-width: 480px) {
+          width: 75%;
+        }
       }
 
       &.pic-remoca2 {
