@@ -101,4 +101,9 @@
       text-align: justify;
     }
   }
+  @media (max-width: 600px) {
+  &.pic-12c13c {
+    margin-left: -20px;
+  }
+}
 }
