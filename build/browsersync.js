@@ -39,8 +39,6 @@ module.exports = gulp => {
     'serve',
     gulp.series('jekyll-dev', () => {
       browserSync.init({
-        host: '0.0.0.0',
-        listen: '0.0.0.0',
         server: {
           baseDir: '_site',
         },
