@@ -7,8 +7,9 @@
     .time-place {
       display: flex;
       justify-content: space-between;
+
       @include mobile {
-        display: flex;
+        display: block;
       }
     }
     &__company {
