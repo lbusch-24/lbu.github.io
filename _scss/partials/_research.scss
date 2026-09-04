@@ -48,7 +48,12 @@
         max-width: 800px;
         margin-top: 0;
         margin-left: -19%;
-        margin-right: auto;
+        margin-right: auto; 
+        
+        @media (max-width: 600px) {
+          margin-left: -120px;
+          }
+        }
         
       }
       &.phones {
@@ -101,9 +106,4 @@
       text-align: justify;
     }
   }
-  @media (max-width: 600px) {
-  &.pic-12c13c {
-    margin-left: -120px;
-  }
-}
 }
