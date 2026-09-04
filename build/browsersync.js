@@ -44,7 +44,7 @@ module.exports = gulp => {
         },
       });
 
-      gulp.watch(scssPath, gulp.series(['sass', reloadBrowser]));
+      gulp.watch('_scss/**/*.scss', gulp.series('sass', reloadBrowser));  
       gulp.watch(jsPath, gulp.series(['scripts', reloadBrowser]));
       gulp.watch(templatePath, gulp.task('jekyll-rebuild'));
     })
