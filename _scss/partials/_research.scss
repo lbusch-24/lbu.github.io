@@ -34,8 +34,10 @@
     }
     &__pic { 
       width: 100%;
+      max-width: 100%;
       overflow: visible;
       margin: 0;
+      flex-shrink: 0;
 
       a {
         display: block;
