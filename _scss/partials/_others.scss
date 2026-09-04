@@ -52,6 +52,10 @@
           a {
             flex-direction: column;
           }
+
+          a img {
+            max-width: 500px;
+          }
         }
 
         @media (max-width: 768px) {
