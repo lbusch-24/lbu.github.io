@@ -66,11 +66,11 @@
         a {
           display: flex;
           gap: 30px;
-
-          
-          @media (max-width: 700px) {
-            flex-direction: column ;
-          }
+        } 
+        @include tablet {
+        a {
+          flex-direction: column;
+        }
         }
       }
 
