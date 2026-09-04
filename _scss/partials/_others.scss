@@ -89,10 +89,10 @@
       }
 
       img {
-        width: 100%;
-        max-width: 100%;
-        height: 300px;
-        object-fit: cover;
+        width: calc(50% - 10px);
+        max-width: calc(50% - 10px);
+        height: auto;
+        object-fit: contain;
       }
     }
     .project__pic.pic-freetime2 {
