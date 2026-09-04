@@ -56,7 +56,6 @@
         a {
         display: flex;
         gap: 30px;
-        width: 100%;
         }
       }
       &.phones {
@@ -74,8 +73,8 @@
       img {
         width: 100%;
         max-width: 100%;
-        display: flex;
-        vertical-align: bottom;
+        flex: 1 1 0;
+        min-width: 0;
       }
     }
     .project__pic.pic-freetime {
