@@ -90,7 +90,7 @@
 
       img {
         width: 100%;
-        max-width: 300px;
+        max-width: 100%;
         height: 300px;
         object-fit: cover;
       }
@@ -107,8 +107,7 @@
 
       img {
         width: 100%;
-        max-width: 500px;
-        height: 200px;
+        max-width: 100%;
         object-fit: cover;
       }
     }
@@ -145,53 +144,5 @@
       line-height: 1.3;
       text-align: justify;
     }
-    @include tablet {
-  &__pic,
-  &__pic.pic-remoca1,
-  &__pic.pic-remoca2,
-  .project__pic.pic-freetime,
-  .project__pic.pic-freetime2 {
-    width: 100%;
-    max-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  &__pic {
-    a {
-      width: 100%;
-      max-width: 100%;
-      margin-left: 0;
-      margin-right: 0;
-      gap: 10px;
-    }
-
-    img {
-      width: 100%;
-      max-width: 100%;
-      height: auto;
-    }
-  }
-
-  .project__pic.pic-freetime {
-    a {
-      margin-left: 0;
-    }
-
-    img {
-      width: 100%;
-      max-width: 100%;
-      height: auto;
-    }
-  }
-
-  .project__pic.pic-freetime2 {
-    img {
-      width: 100%;
-      max-width: 100%;
-      height: auto;
-    }
-  }
-}
   }
 }
