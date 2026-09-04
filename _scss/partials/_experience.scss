@@ -9,7 +9,7 @@
       justify-content: space-between;
       @include mobile {
         display: flex;
-        text-align: left;
+        margin-right: 20px;
       }
     }
     &__company {
