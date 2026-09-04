@@ -127,7 +127,7 @@
         margin-left: 0;
 
         a {
-          margin-left: 0;
+          margin-left: -20px;
         }
       }
     }
@@ -139,9 +139,11 @@
       a {
         display: flex;
         gap: 20px;
+      }
 
-        @media (max-width: 600px) {
-            flex-direction: column ;
+      @media (max-width: 1024px) {
+        a {
+          flex-direction: column;
         }
       }
 
