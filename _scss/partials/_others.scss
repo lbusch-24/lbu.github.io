@@ -54,13 +54,13 @@
           }
 
           img {
-            width: 100% !important;
-            max-width: 100% !important;
+            width: 90% !important;
+            max-width: 90% !important;
           }
         }
 
         @media (max-width: 768px) {
-          width: 50%;
+          width: 90%;
           margin-left: 0;
         }
 
