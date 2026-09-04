@@ -17,7 +17,11 @@
     @include desktop {
       width: 105%;
     }
-
+    @include tablet {
+      width: 100%;
+      display: block;
+      margin-bottom: 70px;
+    }
     &.screentime {
       margin-bottom: 70px;
     }
@@ -115,6 +119,12 @@
         a {
           margin-left: 0;
         }
+      }
+    }
+    @media (max-width: 1024px) {
+      .project__pic.pic-remoca1 a,
+      .project__pic.pic-remoca2 a {
+        flex-direction: column;
       }
     }
     .project__pic.pic-freetime2 {
