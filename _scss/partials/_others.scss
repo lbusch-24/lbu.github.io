@@ -17,11 +17,7 @@
     @include desktop {
       width: 105%;
     }
-    @include tablet {
-      width: 100%;
-      display: block;
-      margin-bottom: 70px;
-    }
+
     &.screentime {
       margin-bottom: 70px;
     }
