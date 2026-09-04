@@ -47,9 +47,10 @@
           display: flex;
           gap: 20px;
 
-          @media (max-width: 600px) {
+          @media (max-width: 100%) {
             display: block;
           }
+        }
       }
 
       &.pic-remoca2 {
@@ -62,8 +63,9 @@
           display: flex;
           gap: 30px;
 
-          @include tablet {
-            flex-direction: column;
+          
+          @media (max-width: 100%) {
+            display: block;
           }
         }
       }
@@ -98,8 +100,8 @@
         margin-left: 140px;
         gap: 20px;
 
-        @include tablet {
-          flex-direction: column;
+        @media (max-width: 100%) {
+          display: block;
         }
       }
 
@@ -118,9 +120,9 @@
         display: flex;
         gap: 20px;
 
-        @include tablet {
-          flex-direction: column;
-        }
+      @media (max-width: 100%) {
+        display: block;
+      }
       }
 
       img {
