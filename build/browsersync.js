@@ -39,8 +39,14 @@ module.exports = gulp => {
     'serve',
     gulp.series('jekyll-dev', () => {
       browserSync.init({
+        host: '0.0.0.0',
         server: {
           baseDir: '_site',
+        },
+        callbacks: {
+          ready: function (err, bs) {
+            console.log('Open on your phone: http://' + bs.options.get('urls').get('external') + ':3000');
+          },
         },
       });
 
