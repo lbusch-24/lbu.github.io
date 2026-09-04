@@ -47,7 +47,7 @@
           display: flex;
           gap: 20px;
 
-          @media (max-width: 600px) {
+          @media (max-width: 300px) {
             display: block;
             margin-left: -5%;
           }
@@ -65,7 +65,7 @@
           gap: 30px;
 
           
-          @media (max-width: 600px) {
+          @media (max-width: 300px) {
             display: block;
           }
         }
