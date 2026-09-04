@@ -49,12 +49,8 @@
         }
 
         @media (max-width: 1024px) {
-          a {
-            flex-direction: column;
-          }
-
-          a img {
-            max-width: 300px;
+          > a {
+            flex-direction: column !important;
           }
         }
 
